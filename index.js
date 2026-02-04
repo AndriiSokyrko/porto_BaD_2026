@@ -10,7 +10,7 @@ const resultPuzzle = arr.reduce((acc, item, ind) => {
     temp.push(item)
     for (let x = 0; x < lenArr; x++) {
         if (currItem.slice(-2) === arr[x].slice(0, 2)) {
-            //не знаю як рахувати- з повторючиими чи без повтор чисел
+            //не знаю як рахувати - з повторюючими чи без повторюючих чисел
             // temp.push(arr[x].slice(2))
             temp.push(arr[x])
             currItem = arr[x]
