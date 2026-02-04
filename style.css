@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.puzzle {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.piece {
+    width: auto;
+    height: 50px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+}
