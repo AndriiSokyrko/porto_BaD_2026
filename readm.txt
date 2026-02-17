@@ -1,22 +1,11 @@
 install:
     - node v24.10.0
-    - npx serve .
 
 porto_task directory:
-    -index.html
     -index.js
-    -script.js
     -source.txt
-    -style.css
     -readme.txt
-    -package.json
 
 run:
-    as html-
-        1) Go into "porto_task" directory
-        2) console(terminal): npm run serve
-        3) http://localhost:3000/
-
-    or:
-        in terminal-
-            1) node index.js
+    terminal-
+        - node index.js
